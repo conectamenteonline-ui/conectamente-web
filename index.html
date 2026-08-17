@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conéctamente — Acompañamiento emocional en tu idioma</title>
+<meta name="description" content="Conéctamente es un programa de bienestar emocional online, en español, con especialistas certificados, sesiones 1 a 1 y acompañamiento continuo.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%23FF6B3D%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Banner de cookies (placeholder) -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>Usamos cookies para mejorar tu experiencia y analizar el uso del sitio. Consulta nuestra <a href="#">Política de Privacidad</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-ghost" id="cookieReject">Rechazar</button>
+    <button class="btn btn-primary" id="cookieAccept">Aceptar</button>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#" class="logo">
+      <span class="logo-mark" aria-hidden="true"></span>
+      Conéctamente
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#areas">Áreas de apoyo</a>
+      <a href="#planes">Planes</a>
+      <a href="#nosotros">Sobre nosotros</a>
+      <a href="#tests">Tests gratuitos</a>
+      <a href="#" class="blog-link">Blog</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contacto" class="btn btn-outline">Iniciar sesión</a>
+      <a href="#contacto" class="btn btn-primary">Empieza hoy</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Bienestar emocional online</p>
+        <h1>Tu mente también <span>merece un plan.</span></h1>
+        <p class="hero-lead">
+          Un programa de acompañamiento emocional pensado para hispanohablantes:
+          sesiones 1 a 1 con especialistas, herramientas prácticas y seguimiento real
+          entre cada encuentro.
+        </p>
+        <ul class="hero-points">
+          <li>Especialistas que entienden tu idioma y tu contexto cultural.</li>
+          <li>Un método con etapas claras y progreso medible.</li>
+          <li>Acompañamiento continuo, no solo una sesión suelta.</li>
+        </ul>
+        <div class="hero-cta">
+          <a href="#planes" class="btn btn-primary btn-lg">Ver planes</a>
+          <a href="#contacto" class="btn btn-outline btn-lg">Quiero más información</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="blob" aria-hidden="true"></div>
+        <img class="hero-image" src="assets/hero.png" alt="Ilustración de una persona en un momento de calma y bienestar emocional">
+        <div class="hero-card hero-card-1">
+          <span class="dot"></span> Sesión de hoy · 5:00 pm
+        </div>
+        <div class="hero-card hero-card-2">
+          <strong>+ de 20</strong> herramientas prácticas en la app
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Franja de confianza -->
+  <section class="trust-strip">
+    <div class="container">
+      <p>Un programa creado por profesionales de la salud emocional</p>
+    </div>
+  </section>
+
+  <!-- Qué es Conéctamente -->
+  <section class="section" id="que-es">
+    <div class="container">
+      <h2 class="section-title">Más que sesiones sueltas</h2>
+      <p class="section-lead">Un programa integral que te acompaña dentro y fuera de cada sesión.</p>
+
+      <div class="grid grid-3">
+        <div class="card reveal">
+          <div class="card-icon">🧭</div>
+          <h3>Tu espacio personal</h3>
+          <p>Sesiones 1 a 1 con tu especialista, con seguimiento continuo y un plan hecho a tu medida.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🤝</div>
+          <h3>Comunidad que acompaña</h3>
+          <p>Espacios grupales y conversaciones con personas que entienden lo que estás viviendo.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🛠️</div>
+          <h3>Herramientas diarias</h3>
+          <p>Recursos prácticos para llevar lo trabajado en sesión a tu día a día real.</p>
+        </div>
+      </div>
+
+      <div class="center-cta">
+        <a href="#planes" class="btn btn-primary">Da el primer paso</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Áreas de apoyo -->
+  <section class="section section-alt" id="areas">
+    <div class="container">
+      <h2 class="section-title">Un camino para cada momento</h2>
+      <p class="section-lead">Especialistas y herramientas para lo que estás atravesando ahora mismo.</p>
+
+      <div class="grid grid-4">
+        <article class="area-card reveal">
+          <img class="area-icon" src="assets/icon-ansiedad.png" alt="Ícono de ansiedad">
+          <h3>Ansiedad</h3>
+          <p>Cuando la mente no se detiene y la preocupación se vuelve constante.</p>
+          <a href="#contacto" class="link-arrow">Explorar este camino →</a>
+        </article>
+        <article class="area-card reveal">
+          <img class="area-icon" src="assets/icon-animo.png" alt="Ícono de estado de ánimo">
+          <h3>Estado de ánimo</h3>
+          <p>Cuando todo se siente más pesado de lo habitual y cuesta encontrar motivación.</p>
+          <a href="#contacto" class="link-arrow">Explorar este camino →</a>
+        </article>
+        <article class="area-card reveal">
+          <img class="area-icon" src="assets/icon-migracion.png" alt="Ícono de migración">
+          <h3>Migración</h3>
+          <p>Cuando extrañas lo que dejaste atrás y aún te estás encontrando en un nuevo lugar.</p>
+          <a href="#contacto" class="link-arrow">Explorar este camino →</a>
+        </article>
+        <article class="area-card reveal">
+          <img class="area-icon" src="assets/icon-relaciones.png" alt="Ícono de relaciones de pareja">
+          <h3>Relaciones de pareja</h3>
+          <p>Cuando la comunicación se traba y hace falta ayuda para reconectar.</p>
+          <a href="#contacto" class="link-arrow">Explorar este camino →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Estadísticas (placeholder) -->
+  <section class="stats">
+    <div class="container grid grid-4">
+      <div class="stat"><strong>[+N]</strong><span>Personas acompañadas</span></div>
+      <div class="stat"><strong>[N.N]/5</strong><span>Valoración promedio</span></div>
+      <div class="stat"><strong>[N]%</strong><span>Recomendarían el programa</span></div>
+      <div class="stat"><strong>[+N]</strong><span>Especialistas certificados</span></div>
+    </div>
+    <p class="stats-note">* Cifras de ejemplo — reemplazar con datos reales.</p>
+  </section>
+
+  <!-- Testimonios (placeholder) -->
+  <section class="section" id="testimonios">
+    <div class="container">
+      <h2 class="section-title">Historias de quienes ya dieron el paso</h2>
+
+      <!-- Testimonios ilustrativos de ejemplo — reemplazar por citas reales de usuarios antes de publicar el sitio como definitivo -->
+      <div class="grid grid-3">
+        <blockquote class="testimonial reveal">
+          <p>"Llegué pensando que la ansiedad simplemente era parte de mí. Con las sesiones y las herramientas de la app aprendí a reconocerla a tiempo, antes de que me controlara."</p>
+          <div class="testimonial-who">
+            <span class="avatar-initials">A</span>
+            <footer>Testimonio de ejemplo — Ciudad</footer>
+          </div>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <p>"Empezamos el plan en pareja sin muchas expectativas. Lo que más nos ayudó fue tener un espacio guiado para decir cosas que llevábamos meses callando."</p>
+          <div class="testimonial-who">
+            <img class="avatar-img" src="assets/avatar-couple.png" alt="Avatar ilustrado de una pareja">
+            <footer>Testimonio de ejemplo — Ciudad</footer>
+          </div>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <p>"Llegué a este país hace dos años y sentía que nadie entendía por lo que estaba pasando. Aquí encontré a alguien que sí, y eso cambió todo."</p>
+          <div class="testimonial-who">
+            <span class="avatar-initials">P</span>
+            <footer>Testimonio de ejemplo — Ciudad</footer>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section class="section section-alt" id="como-funciona">
+    <div class="container">
+      <h2 class="section-title">Tu camino hacia el bienestar</h2>
+      <p class="section-lead">Un método propio de 5 etapas: entender, sentir, comprender, actuar y sostener el cambio.</p>
+
+      <div class="method-track">
+        <ol class="steps">
+          <li class="reveal">
+            <span class="step-num">1</span>
+            <div>
+              <h3>Cuéntanos qué estás viviendo</h3>
+              <p>Una evaluación breve, sin etiquetas, para entender qué necesitas.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="step-num">2</span>
+            <div>
+              <h3>Conoce a tu especialista</h3>
+              <p>Te conectamos con quien mejor se ajusta a tu contexto y tu idioma.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="step-num">3</span>
+            <div>
+              <h3>Tu primera sesión</h3>
+              <p>Agenda en el horario que te convenga y comienza tu proceso.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="step-num">4</span>
+            <div>
+              <h3>Construye herramientas propias</h3>
+              <p>Entre sesión y sesión, practicas lo aprendido con recursos de la app.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="step-num">5</span>
+            <div>
+              <h3>Sostén el cambio</h3>
+              <p>Mides tu progreso y consolidas hábitos que se quedan contigo.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="center-cta">
+        <a href="#contacto" class="btn btn-primary">Empieza hoy</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section class="section" id="contacto">
+    <div class="container contact-inner">
+      <div class="contact-copy">
+        <h2 class="section-title">Te acompañamos a dar el primer paso</h2>
+        <p>Completa el formulario y un miembro de nuestro equipo se pondrá en contacto contigo.</p>
+        <ul class="checklist">
+          <li>Sin compromiso</li>
+          <li>Sin presión</li>
+          <li>Respuesta rápida</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label>
+          Nombre
+          <input type="text" name="nombre" required>
+        </label>
+        <label>
+          Correo electrónico
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Teléfono / WhatsApp
+          <input type="tel" name="telefono">
+        </label>
+        <label>
+          Cuéntanos brevemente qué estás buscando
+          <textarea name="mensaje" rows="3"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Comparación -->
+  <section class="section section-alt" id="planes">
+    <div class="container">
+      <h2 class="section-title">Planes pensados para tu proceso</h2>
+      <p class="section-lead">Elige el plan que se ajuste a tu momento. Sin permanencia mínima.</p>
+
+      <div class="pricing-grid">
+        <div class="pricing-card reveal">
+          <h3>Sesión Única</h3>
+          <p class="price">$45 <span>/ sesión</span></p>
+          <p class="price-note">1 sesión de 50 minutos</p>
+          <p class="price-payout">Pago al profesional: $20–25</p>
+          <ul class="pricing-features">
+            <li>1 sesión de 50 minutos</li>
+            <li>Ideal para probar el programa</li>
+            <li>Sin suscripción ni permanencia</li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline">Elegir plan</a>
+        </div>
+        <div class="pricing-card reveal">
+          <h3>Básico</h3>
+          <p class="price">$79.99 <span>/ mes</span></p>
+          <p class="price-note">2 sesiones de 50 minutos al mes</p>
+          <p class="price-payout">Pago al profesional: $45–50</p>
+          <ul class="pricing-features">
+            <li>2 sesiones de 50 min al mes</li>
+            <li>Acceso a la app</li>
+            <li>Comunidad y masterclasses</li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline">Elegir plan</a>
+        </div>
+        <div class="pricing-card featured reveal">
+          <span class="pricing-badge">Más elegido</span>
+          <h3>Bienestar</h3>
+          <p class="price">$149 <span>/ mes</span></p>
+          <p class="price-note">4 sesiones al mes</p>
+          <p class="price-payout">Pago al profesional: $95–100</p>
+          <ul class="pricing-features">
+            <li>4 sesiones al mes</li>
+            <li>Acceso completo a la app</li>
+            <li>Comunidad y masterclasses</li>
+            <li>Garantía de match</li>
+          </ul>
+          <a href="#contacto" class="btn btn-primary">Elegir plan</a>
+        </div>
+        <div class="pricing-card reveal">
+          <h3>Premium</h3>
+          <p class="price">$189 <span>/ mes</span></p>
+          <p class="price-note">4 sesiones al mes</p>
+          <p class="price-payout">Pago al profesional: $120</p>
+          <ul class="pricing-features">
+            <li>4 sesiones al mes</li>
+            <li>Chat y seguimiento continuo</li>
+            <li>Acceso completo a la app</li>
+            <li>Garantía de match</li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline">Elegir plan</a>
+        </div>
+      </div>
+
+      <p class="section-lead" style="margin: 48px auto 0; text-align:center;">Por qué elegir Conéctamente frente a otras opciones</p>
+
+      <div class="table-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Conéctamente</th>
+              <th>Terapia tradicional</th>
+              <th>Otras plataformas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Método estructurado</td>
+              <td class="yes">Etapas definidas</td>
+              <td>Variable</td>
+              <td>No siempre</td>
+            </tr>
+            <tr>
+              <td>Acompañamiento entre sesiones</td>
+              <td class="yes">Herramientas + comunidad</td>
+              <td>No</td>
+              <td>Limitado</td>
+            </tr>
+            <tr>
+              <td>Enfoque cultural en español</td>
+              <td class="yes">Sí, siempre</td>
+              <td>General</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Medición de progreso</td>
+              <td class="yes">Tests y seguimiento</td>
+              <td>Variable</td>
+              <td>Rara vez</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre nosotros -->
+  <section class="section" id="nosotros">
+    <div class="container about-inner">
+      <div class="about-copy reveal">
+        <p class="eyebrow">Nuestra historia</p>
+        <h2 class="section-title">Creamos Conéctamente para que nadie atraviese esto en soledad</h2>
+        <p>[Espacio para la historia real del equipo fundador: quiénes son, su formación profesional y por qué crearon este programa.]</p>
+        <p>Trabajamos con un método propio, pensado para acompañar el bienestar emocional paso a paso, con estructura y con calidez humana.</p>
+        <a href="#contacto" class="btn btn-outline">Conoce nuestro método</a>
+      </div>
+      <div class="about-visual" aria-hidden="true">
+        <div class="about-frame">
+          <img src="assets/about-team.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section class="section section-alt" id="beneficios">
+    <div class="container">
+      <h2 class="section-title">Avanza con respaldo real</h2>
+
+      <div class="grid grid-3">
+        <div class="card reveal"><h3>Precio accesible</h3><p>Una inversión pensada para caber en tu presupuesto, sin costos ocultos.</p></div>
+        <div class="card reveal"><h3>A tu ritmo</h3><p>Pausa, ajusta o cancela tu plan cuando lo necesites.</p></div>
+        <div class="card reveal"><h3>Sin listas de espera</h3><p>Empieza tu proceso sin semanas de espera para tu primera sesión.</p></div>
+        <div class="card reveal"><h3>Garantía de match</h3><p>Si no sientes conexión con tu especialista, te ayudamos a encontrar otro sin costo extra.</p></div>
+        <div class="card reveal"><h3>Equipo certificado</h3><p>Especialistas seleccionados y capacitados en nuestro método.</p></div>
+        <div class="card reveal"><h3>Desde donde estés</h3><p>Conéctate desde tu casa, tu oficina o cualquier lugar con internet.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- La app -->
+  <section class="section" id="app">
+    <div class="container app-showcase">
+      <div class="app-showcase-visual reveal">
+        <img src="assets/app-mockup.png" alt="Ilustración de la app de Conéctamente con seguimiento de bienestar">
+      </div>
+      <div class="app-showcase-copy">
+        <p class="eyebrow">Tu bienestar en un solo lugar</p>
+        <h2 class="section-title">Todo tu proceso, siempre a la mano</h2>
+        <p>La app de Conéctamente te acompaña entre sesiones, con herramientas pensadas para que el progreso no se quede solo en la videollamada.</p>
+        <ul class="app-feature-list">
+          <li>Diario emocional con historial de tus reflexiones y avances.</li>
+          <li>Actividades prácticas para trabajar entre sesiones.</li>
+          <li>Masterclasses para profundizar en tu proceso.</li>
+          <li>Tests de progreso para medir tu avance.</li>
+        </ul>
+        <a href="#contacto" class="btn btn-primary">Conoce cómo empezar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tests gratuitos -->
+  <section class="section section-alt" id="tests">
+    <div class="container">
+      <h2 class="section-title">Descubre cómo te sientes hoy</h2>
+      <p class="section-lead">Tests breves y gratuitos de autoconocimiento. No son un diagnóstico médico.</p>
+
+      <div class="grid grid-3">
+        <article class="area-card">
+          <h3>¿Tu mente no para?</h3>
+          <p>Entiende qué tan presente está la ansiedad en tu día a día.</p>
+          <a href="#contacto" class="link-arrow">Hacer test →</a>
+        </article>
+        <article class="area-card">
+          <h3>¿Algo no se siente bien?</h3>
+          <p>Descubre qué te está diciendo tu estado de ánimo.</p>
+          <a href="#contacto" class="link-arrow">Hacer test →</a>
+        </article>
+        <article class="area-card">
+          <h3>¿Tu relación cambió?</h3>
+          <p>Identifica qué áreas de tu relación piden atención.</p>
+          <a href="#contacto" class="link-arrow">Hacer test →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Preguntas frecuentes</h2>
+
+      <div class="accordion" id="accordion">
+        <div class="accordion-item">
+          <button class="accordion-trigger">¿Cómo son las sesiones?</button>
+          <div class="accordion-panel">
+            <p>Las sesiones son encuentros 1 a 1 en línea con tu especialista, por videollamada dentro de la plataforma.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">¿Por cuánto tiempo puedo usar el programa?</button>
+          <div class="accordion-panel">
+            <p>Puedes usarlo el tiempo que necesites. No hay permanencia mínima: puedes pausar o cancelar cuando quieras.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">¿Para quién es Conéctamente?</button>
+          <div class="accordion-panel">
+            <p>Para personas que quieren entender mejor lo que están viviendo y avanzar con acompañamiento profesional en español.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">¿En qué casos no es para mí?</button>
+          <div class="accordion-panel">
+            <p>El programa no sustituye servicios de emergencia o atención psiquiátrica urgente. Si vives una crisis inmediata, busca ayuda de servicios de emergencia locales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA final -->
+  <section class="final-cta">
+    <div class="container">
+      <h2>Sentirte mejor no es suerte. Es un proceso.</h2>
+      <div class="hero-cta">
+        <a href="#planes" class="btn btn-primary btn-lg">Ver planes</a>
+        <a href="#contacto" class="btn btn-outline-light btn-lg">Quiero más información</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#" class="logo logo-light">
+        <span class="logo-mark" aria-hidden="true"></span>
+        Conéctamente
+      </a>
+      <p>Programa de bienestar emocional online, en español, con acompañamiento profesional en cada etapa.</p>
+    </div>
+    <div>
+      <h4>Áreas de apoyo</h4>
+      <ul>
+        <li><a href="#areas">Ansiedad</a></li>
+        <li><a href="#areas">Estado de ánimo</a></li>
+        <li><a href="#areas">Migración</a></li>
+        <li><a href="#areas">Relaciones de pareja</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Sobre nosotros</h4>
+      <ul>
+        <li><a href="#nosotros">Nuestra historia</a></li>
+        <li><a href="#como-funciona">Nuestro método</a></li>
+        <li><a href="#faq">Preguntas frecuentes</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <ul class="contact-list">
+        <li>[correo@conectamente.com]</li>
+        <li>[+1 (000) 000-0000]</li>
+        <li>[Dirección — ciudad, país]</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© Conéctamente — Todos los derechos reservados — 2026</p>
+    <div class="footer-links">
+      <a href="#">Política de Privacidad</a>
+      <a href="#">Términos y Condiciones</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
