@@ -115,8 +115,8 @@ img { max-width: 100%; display: block; }
   font-size: 1.25rem;
   color: var(--color-ink);
 }
-.logo-img { height: 44px; width: auto; display: block; }
-.logo-img-footer { height: 56px; }
+.logo-img { height: 62px; width: auto; display: block; }
+.logo-icon-img { height: 34px; width: auto; display: block; }
 .main-nav {
   display: flex;
   gap: 28px;
