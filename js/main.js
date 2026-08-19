@@ -51,12 +51,33 @@ if ('IntersectionObserver' in window) {
   revealTargets.forEach(el => el.classList.add('in-view'));
 }
 
-// Contact form (placeholder submit handler — wire up to real backend/service later)
+// Contact form — submits to Netlify Forms
 const contactForm = document.getElementById('contactForm');
 const formNote = document.getElementById('formNote');
 
+function encodeFormData(form) {
+  return new URLSearchParams(new FormData(form)).toString();
+}
+
 contactForm?.addEventListener('submit', (e) => {
   e.preventDefault();
-  formNote.textContent = 'Gracias por escribirnos. Nos pondremos en contacto pronto.';
-  contactForm.reset();
+  const submitBtn = contactForm.querySelector('button[type="submit"]');
+  submitBtn.disabled = true;
+  formNote.textContent = 'Enviando...';
+
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: encodeFormData(contactForm)
+  })
+    .then(() => {
+      formNote.textContent = 'Gracias por escribirnos. Nos pondremos en contacto pronto.';
+      contactForm.reset();
+    })
+    .catch(() => {
+      formNote.textContent = 'Hubo un problema al enviar. Escríbenos directo a conectamente.online@gmail.com.';
+    })
+    .finally(() => {
+      submitBtn.disabled = false;
+    });
 });
