@@ -146,9 +146,9 @@ img { max-width: 100%; display: block; }
 }
 .hero-inner {
   display: grid;
-  grid-template-columns: 1.1fr .9fr;
+  grid-template-columns: 1fr 1fr;
   gap: 48px;
-  align-items: center;
+  align-items: stretch;
 }
 .eyebrow {
   text-transform: uppercase;
@@ -182,7 +182,7 @@ img { max-width: 100%; display: block; }
 .hero-cta { display: flex; gap: 14px; flex-wrap: wrap; }
 .hero-microcopy { margin-top: 14px; font-size: .82rem; color: rgba(255,255,255,.7); font-weight: 600; }
 
-.hero-visual { position: relative; min-height: 340px; }
+.hero-visual { position: relative; min-height: 520px; height: 100%; }
 .blob {
   position: absolute;
   inset: 0;
@@ -199,6 +199,7 @@ img { max-width: 100%; display: block; }
 .hero-card {
   position: absolute;
   background: #fff;
+  color: var(--color-ink) !important;
   border-radius: var(--radius-md);
   box-shadow: 0 14px 34px rgba(30,42,40,.14);
   padding: 14px 18px;
@@ -207,7 +208,9 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   gap: 8px;
+  z-index: 2;
 }
+.hero-card * { color: var(--color-ink) !important; }
 .hero-card-1 { top: 10%; left: -2%; }
 .hero-card-2 { bottom: 8%; right: -4%; max-width: 200px; }
 .hero-card .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--color-primary); }
@@ -610,7 +613,7 @@ img { max-width: 100%; display: block; }
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
-  .hero-visual { min-height: 260px; order: -1; }
+  .hero-visual { min-height: 340px; order: -1; }
 }
 @media (max-width: 720px) {
   .pricing-grid { grid-template-columns: 1fr; max-width: 380px; }
