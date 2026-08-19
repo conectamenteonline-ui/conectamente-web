@@ -51,6 +51,20 @@ if ('IntersectionObserver' in window) {
   revealTargets.forEach(el => el.classList.add('in-view'));
 }
 
+// Hero image carousel
+const heroCarousel = document.getElementById('heroCarousel');
+if (heroCarousel) {
+  const slides = heroCarousel.querySelectorAll('.hero-bg-image');
+  let currentSlide = 0;
+  if (slides.length > 1) {
+    setInterval(() => {
+      slides[currentSlide].classList.remove('is-active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('is-active');
+    }, 5000);
+  }
+}
+
 // Contact form — submits to Netlify Forms
 const contactForm = document.getElementById('contactForm');
 const formNote = document.getElementById('formNote');

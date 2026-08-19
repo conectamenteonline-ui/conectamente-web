@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Conéctamente — Acompañamiento emocional en tu idioma</title>
-<meta name="description" content="Conéctamente es un programa de bienestar emocional online, en español, con especialistas certificados, sesiones 1 a 1 y acompañamiento continuo.">
+<title>Conéctamente — Psicólogo online en español | Terapia y acompañamiento emocional</title>
+<meta name="description" content="Terapia psicológica online en español para hispanohablantes en Estados Unidos. Habla con un especialista, sin juicios, a tu ritmo. Agenda tu sesión o escríbenos por WhatsApp.">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -28,17 +28,19 @@
       <img src="assets/logo.png" alt="Conéctamente" class="logo-img">
     </a>
 
-    <nav class="main-nav" id="mainNav">
-      <a href="#areas">Áreas de apoyo</a>
-      <a href="#planes">Planes</a>
-      <a href="#nosotros">Sobre nosotros</a>
-      <a href="#tests">Tests gratuitos</a>
-      <a href="#" class="blog-link">Blog</a>
-    </nav>
+    <div class="nav-drawer">
+      <nav class="main-nav" id="mainNav">
+        <a href="#identificado">Quiénes somos</a>
+        <a href="#metodo">Nuestro enfoque</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#faq">Preguntas frecuentes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
 
-    <div class="header-actions">
-      <a href="#contacto" class="btn btn-outline">Iniciar sesión</a>
-      <a href="#contacto" class="btn btn-primary">Empieza hoy</a>
+      <div class="header-actions">
+        <a href="https://wa.me/573102890439?text=Hola%2C%20quiero%20agendar%20una%20sesi%C3%B3n" target="_blank" rel="noopener" class="btn btn-outline">Hablar por WhatsApp</a>
+        <a href="#contacto" class="btn btn-primary">Quiero agendar una sesión</a>
+      </div>
     </div>
 
     <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
@@ -47,38 +49,52 @@
   </div>
 </header>
 
+<!-- Botón flotante de WhatsApp (siempre visible) -->
+<a href="https://wa.me/573102890439?text=Hola%2C%20quiero%20agendar%20una%20sesi%C3%B3n" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.34.664 4.523 1.814 6.377L4 29l7.805-1.775A11.93 11.93 0 0 0 16.001 27C22.628 27 28 21.627 28 15S22.628 3 16.001 3Zm6.943 16.66c-.297.832-1.47 1.526-2.403 1.723-.638.135-1.472.243-4.28-.918-3.594-1.489-5.905-5.135-6.086-5.373-.174-.238-1.459-1.943-1.459-3.706 0-1.762.918-2.629 1.244-2.988.297-.325.647-.406.863-.406.216 0 .432.002.622.011.2.01.468-.076.732.559.297.703.998 2.421 1.086 2.598.088.176.147.383.03.62-.117.238-.176.383-.353.588-.176.205-.372.457-.53.613-.177.176-.36.367-.155.72.206.352.914 1.508 1.963 2.443 1.35 1.205 2.489 1.578 2.842 1.756.353.176.559.147.765-.088.206-.235.882-1.026 1.117-1.379.235-.352.47-.293.793-.176.324.117 2.056.97 2.409 1.146.353.176.588.264.677.41.088.147.088.85-.209 1.682Z"/></svg>
+</a>
+
 <main>
 
   <!-- Hero -->
   <section class="hero">
-    <img class="hero-bg-image" src="assets/hero.png" alt="Persona en un momento de calma y bienestar emocional en casa">
+    <div class="hero-carousel" id="heroCarousel">
+      <img class="hero-bg-image is-active" src="assets/hero-1.png" alt="Pareja conversando con calma en un momento de acompañamiento" loading="eager">
+      <img class="hero-bg-image" src="assets/hero-2.png" alt="Persona sintiendo ansiedad y sobrecarga en su día a día">
+      <img class="hero-bg-image" src="assets/hero-3.png" alt="Persona atravesando un momento de bajo ánimo">
+      <img class="hero-bg-image" src="assets/hero-4.png" alt="Persona atravesando un cambio importante en su vida">
+      <img class="hero-bg-image" src="assets/hero-5.png" alt="Persona en un momento de calma y respiración consciente">
+    </div>
     <div class="hero-overlay" aria-hidden="true"></div>
     <div class="container hero-inner">
       <div class="hero-copy">
-        <p class="eyebrow">Bienestar emocional online</p>
-        <h1>Tu mente también <span>merece un plan.</span></h1>
+        <h1>¿Cómo te has estado sintiendo <span>últimamente?</span></h1>
         <p class="hero-lead">
-          Un programa de acompañamiento emocional pensado para hispanohablantes:
-          sesiones 1 a 1 con especialistas, herramientas prácticas y seguimiento real
-          entre cada encuentro.
+          A veces seguimos adelante, trabajamos, estudiamos y cumplimos con nuestras responsabilidades
+          mientras por dentro sentimos que algo no está bien. No tienes que afrontar todo en silencio.
+        </p>
+        <p class="hero-lead">
+          En Conéctamente encontrarás un espacio de acompañamiento psicológico en español, cercano y
+          profesional, donde podrás hablar de lo que estás viviendo, comprender mejor lo que te sucede
+          y encontrar herramientas para avanzar.
         </p>
         <ul class="hero-points">
-          <li>Especialistas que entienden tu idioma y tu contexto cultural.</li>
-          <li>Un método con etapas claras y progreso medible.</li>
-          <li>Acompañamiento continuo, no solo una sesión suelta.</li>
+          <li>Sesiones online</li>
+          <li>Atención en español</li>
+          <li>Tarifas accesibles</li>
         </ul>
         <div class="hero-cta">
-          <a href="#contacto" class="btn btn-primary btn-lg">Encuentra tu especialista ideal</a>
-          <a href="#planes" class="btn btn-outline-light btn-lg">Ver planes</a>
+          <a href="#contacto" class="btn btn-primary btn-lg">Quiero agendar una sesión</a>
+          <a href="https://wa.me/573102890439?text=Hola%2C%20quiero%20agendar%20una%20sesi%C3%B3n" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg">Hablar por WhatsApp</a>
         </div>
-        <p class="hero-microcopy">En menos de 3 minutos · Sin compromiso · Sin tarjeta</p>
+        <p class="hero-microcopy">Dar el primer paso también es una forma de cuidarte.</p>
       </div>
       <div class="hero-visual">
         <div class="hero-card hero-card-1">
           <span class="dot"></span> Sesión de hoy · 5:00 pm
         </div>
         <div class="hero-card hero-card-2">
-          <strong>+ de 20</strong> herramientas prácticas en la app
+          <strong>100%</strong> confidencial y en español
         </div>
       </div>
     </div>
@@ -87,165 +103,196 @@
   <!-- Franja de confianza -->
   <section class="trust-strip">
     <div class="container">
-      <p>Un programa creado por profesionales de la salud emocional</p>
+      <p>Un espacio de acompañamiento psicológico pensado para hispanohablantes</p>
+    </div>
+  </section>
+
+  <!-- ¿Te sientes identificado? -->
+  <section class="section split-media" id="identificado">
+    <div class="container split-inner">
+      <div class="split-visual reveal">
+        <img src="assets/identificado.png" alt="Persona reflexionando tranquilamente junto a una ventana con una taza de café">
+      </div>
+      <div class="split-copy reveal">
+        <h2 class="section-title">Hay momentos en los que simplemente necesitamos que alguien nos escuche</h2>
+        <p>Tal vez últimamente:</p>
+        <ul class="check-list">
+          <li>Te sientes abrumado o emocionalmente agotado.</li>
+          <li>Tienes preocupaciones que no sabes cómo manejar.</li>
+          <li>Te cuesta dormir o desconectarte de tus pensamientos.</li>
+          <li>Sientes ansiedad, tristeza, soledad o desmotivación.</li>
+          <li>Estás atravesando cambios importantes en tu vida.</li>
+          <li>Tienes problemas familiares, personales o de pareja.</li>
+          <li>Sientes que necesitas hablar con alguien, pero no sabes por dónde empezar.</li>
+        </ul>
+        <p class="emphasis">No necesitas tener todas las respuestas para pedir ayuda. A veces, comenzar una conversación es suficiente para dar el primer paso.</p>
+        <a href="#contacto" class="btn btn-primary">Quiero recibir acompañamiento</a>
+      </div>
     </div>
   </section>
 
   <!-- Qué es Conéctamente -->
-  <section class="section" id="que-es">
+  <section class="section section-alt" id="que-es">
     <div class="container">
-      <h2 class="section-title">Más que sesiones sueltas</h2>
-      <p class="section-lead">Un programa integral que te acompaña dentro y fuera de cada sesión.</p>
+      <h2 class="section-title">Un espacio para hablar, comprender y avanzar</h2>
+      <p class="section-lead">
+        Conéctamente nace de una idea sencilla: nadie debería sentirse solo cuando más necesita ser escuchado.
+      </p>
+      <p class="section-lead">
+        Creamos este espacio para acercar el acompañamiento psicológico a las personas que necesitan ser
+        escuchadas y orientadas, sin importar dónde se encuentren. Aquí puedes hablar de lo que estás viviendo
+        con respeto, privacidad y sin juicios. Nuestro objetivo no es decirte cómo debes vivir tu vida — es
+        acompañarte para que puedas comprender mejor lo que estás experimentando, identificar aquello que te
+        está afectando y encontrar herramientas que te ayuden a afrontar tu situación.
+      </p>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <h2 class="section-title">¿En qué podemos acompañarte?</h2>
 
       <div class="grid grid-3">
+        <div class="card reveal">
+          <div class="card-icon">💬</div>
+          <h3>Acompañamiento psicológico</h3>
+          <p>Un espacio individual y confidencial para hablar sobre aquello que te preocupa, comprender lo que estás viviendo y trabajar en herramientas que puedan ayudarte.</p>
+        </div>
         <div class="card reveal">
           <div class="card-icon">🧭</div>
-          <h3>Tu espacio personal</h3>
-          <p>Sesiones 1 a 1 con tu especialista, con seguimiento continuo y un plan hecho a tu medida.</p>
+          <h3>Orientación emocional</h3>
+          <p>Cuando no sabes exactamente qué te está pasando, conversar con un profesional puede ayudarte a organizar tus pensamientos y comprender mejor tus emociones.</p>
         </div>
         <div class="card reveal">
-          <div class="card-icon">🤝</div>
-          <h3>Comunidad que acompaña</h3>
-          <p>Espacios grupales y conversaciones con personas que entienden lo que estás viviendo.</p>
+          <div class="card-icon">🏡</div>
+          <h3>Situaciones personales y familiares</h3>
+          <p>Acompañamiento durante conflictos, cambios, dificultades personales y situaciones que afectan tu bienestar.</p>
         </div>
         <div class="card reveal">
-          <div class="card-icon">🛠️</div>
-          <h3>Herramientas diarias</h3>
-          <p>Recursos prácticos para llevar lo trabajado en sesión a tu día a día real.</p>
+          <div class="card-icon">🌊</div>
+          <h3>Ansiedad, estrés y sobrecarga emocional</h3>
+          <p>Un espacio para explorar lo que estás experimentando y desarrollar estrategias para afrontar situaciones que generan preocupación o agotamiento.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🌱</div>
+          <h3>Procesos de cambio</h3>
+          <p>Apoyo durante nuevas etapas, rupturas, cambios laborales, mudanzas, decisiones importantes u otras transiciones de vida.</p>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="center-cta">
-        <a href="#planes" class="btn btn-primary">Da el primer paso</a>
+  <!-- Nuestro método -->
+  <section class="section section-alt split-media" id="metodo">
+    <div class="container split-inner reverse">
+      <div class="split-copy reveal">
+        <h2 class="section-title">Te escuchamos. Comprendemos contigo. Construimos juntos.</h2>
+        <p>Nuestro enfoque busca combinar profesionalismo, estructura y calidez humana.</p>
+        <div class="method-track">
+          <ol class="steps">
+            <li class="reveal">
+              <span class="step-num">01</span>
+              <div>
+                <h3>Te escuchamos</h3>
+                <p>Comenzamos por tu historia, tus preocupaciones y aquello que te está llevando a buscar ayuda.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="step-num">02</span>
+              <div>
+                <h3>Comprendemos</h3>
+                <p>Exploramos juntos qué puede estar influyendo en cómo te sientes y qué necesitas en este momento.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="step-num">03</span>
+              <div>
+                <h3>Trabajamos</h3>
+                <p>Construimos estrategias y herramientas orientadas a tu situación y a tus objetivos.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="step-num">04</span>
+              <div>
+                <h3>Avanzamos</h3>
+                <p>El proceso se adapta a tu ritmo, respetando tu historia y tus necesidades.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <p class="emphasis">No se trata de cambiar quién eres. Se trata de ayudarte a sentirte mejor y contar con más herramientas para afrontar lo que estás viviendo.</p>
       </div>
-    </div>
-  </section>
-
-  <!-- Áreas de apoyo -->
-  <section class="section section-alt" id="areas">
-    <div class="container">
-      <h2 class="section-title">Un camino para cada momento</h2>
-      <p class="section-lead">Especialistas y herramientas para lo que estás atravesando ahora mismo.</p>
-
-      <div class="grid grid-4">
-        <article class="area-card reveal">
-          <img class="area-icon" src="assets/icon-ansiedad.png" alt="Ícono de ansiedad">
-          <h3>Ansiedad</h3>
-          <p>Cuando la mente no se detiene y la preocupación se vuelve constante.</p>
-          <a href="#contacto" class="link-arrow">Explorar este camino →</a>
-        </article>
-        <article class="area-card reveal">
-          <img class="area-icon" src="assets/icon-animo.png" alt="Ícono de estado de ánimo">
-          <h3>Estado de ánimo</h3>
-          <p>Cuando todo se siente más pesado de lo habitual y cuesta encontrar motivación.</p>
-          <a href="#contacto" class="link-arrow">Explorar este camino →</a>
-        </article>
-        <article class="area-card reveal">
-          <img class="area-icon" src="assets/icon-migracion.png" alt="Ícono de migración">
-          <h3>Migración</h3>
-          <p>Cuando extrañas lo que dejaste atrás y aún te estás encontrando en un nuevo lugar.</p>
-          <a href="#contacto" class="link-arrow">Explorar este camino →</a>
-        </article>
-        <article class="area-card reveal">
-          <img class="area-icon" src="assets/icon-relaciones.png" alt="Ícono de relaciones de pareja">
-          <h3>Relaciones de pareja</h3>
-          <p>Cuando la comunicación se traba y hace falta ayuda para reconectar.</p>
-          <a href="#contacto" class="link-arrow">Explorar este camino →</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Estadísticas (placeholder) -->
-  <section class="stats">
-    <div class="container grid grid-4">
-      <div class="stat"><strong>+2.400</strong><span>Personas acompañadas</span></div>
-      <div class="stat"><strong>4.8/5</strong><span>Valoración promedio</span></div>
-      <div class="stat"><strong>96%</strong><span>Recomendarían el programa</span></div>
-      <div class="stat"><strong>+120</strong><span>Especialistas certificados</span></div>
-    </div>
-  </section>
-
-  <!-- Testimonios (placeholder) -->
-  <section class="section" id="testimonios">
-    <div class="container">
-      <h2 class="section-title">Historias de quienes ya dieron el paso</h2>
-
-      <!-- Testimonios ilustrativos de ejemplo — reemplazar por citas reales de usuarios antes de publicar el sitio como definitivo -->
-      <div class="grid grid-3">
-        <blockquote class="testimonial reveal">
-          <p>"Llegué pensando que la ansiedad simplemente era parte de mí. Con las sesiones y las herramientas de la app aprendí a reconocerla a tiempo, antes de que me controlara."</p>
-          <div class="testimonial-who">
-            <span class="avatar-initials">A</span>
-            <footer>Ana Belén, 34 — Madrid, España</footer>
-          </div>
-        </blockquote>
-        <blockquote class="testimonial reveal">
-          <p>"Empezamos el plan en pareja sin muchas expectativas. Lo que más nos ayudó fue tener un espacio guiado para decir cosas que llevábamos meses callando."</p>
-          <div class="testimonial-who">
-            <img class="avatar-img" src="assets/avatar-couple.png" alt="Avatar ilustrado de una pareja">
-            <footer>Laura y Daniel, 30 y 33 — Miami, Estados Unidos</footer>
-          </div>
-        </blockquote>
-        <blockquote class="testimonial reveal">
-          <p>"Llegué a este país hace dos años y sentía que nadie entendía por lo que estaba pasando. Aquí encontré a alguien que sí, y eso cambió todo."</p>
-          <div class="testimonial-who">
-            <span class="avatar-initials">P</span>
-            <footer>Patricia, 41 — Houston, Estados Unidos</footer>
-          </div>
-        </blockquote>
+      <div class="split-visual reveal">
+        <img src="assets/metodo.png" alt="Profesional escuchando con atención a una persona en una conversación cercana">
       </div>
     </div>
   </section>
 
   <!-- Cómo funciona -->
-  <section class="section section-alt" id="como-funciona">
+  <section class="section" id="como-funciona">
     <div class="container">
-      <h2 class="section-title">Tu camino hacia el bienestar</h2>
-      <p class="section-lead">Un método propio de 5 etapas: entender, sentir, comprender, actuar y sostener el cambio.</p>
+      <h2 class="section-title">Recibir acompañamiento puede ser más sencillo de lo que imaginas</h2>
 
       <div class="method-track">
         <ol class="steps">
           <li class="reveal">
             <span class="step-num">1</span>
             <div>
-              <h3>Cuéntanos qué estás viviendo</h3>
-              <p>Una evaluación breve, sin etiquetas, para entender qué necesitas.</p>
+              <h3>Contáctanos</h3>
+              <p>Escríbenos y cuéntanos brevemente qué estás buscando.</p>
             </div>
           </li>
           <li class="reveal">
             <span class="step-num">2</span>
             <div>
-              <h3>Conoce a tu especialista</h3>
-              <p>Te conectamos con quien mejor se ajusta a tu contexto y tu idioma.</p>
+              <h3>Orientamos tu solicitud</h3>
+              <p>Te ayudamos a identificar el tipo de acompañamiento que puede ser adecuado para tu situación.</p>
             </div>
           </li>
           <li class="reveal">
             <span class="step-num">3</span>
             <div>
-              <h3>Tu primera sesión</h3>
-              <p>Agenda en el horario que te convenga y comienza tu proceso.</p>
+              <h3>Agenda tu sesión</h3>
+              <p>Coordinamos contigo el día y horario disponible.</p>
             </div>
           </li>
           <li class="reveal">
             <span class="step-num">4</span>
             <div>
-              <h3>Construye herramientas propias</h3>
-              <p>Entre sesión y sesión, practicas lo aprendido con recursos de la app.</p>
+              <h3>Conéctate desde donde estés</h3>
+              <p>La sesión se realiza online mediante una plataforma de videollamada.</p>
             </div>
           </li>
           <li class="reveal">
             <span class="step-num">5</span>
             <div>
-              <h3>Sostén el cambio</h3>
-              <p>Mides tu progreso y consolidas hábitos que se quedan contigo.</p>
+              <h3>Empieza tu proceso</h3>
+              <p>Tendrás un espacio para hablar, ser escuchado y comenzar a trabajar en aquello que te preocupa.</p>
             </div>
           </li>
         </ol>
       </div>
 
       <div class="center-cta">
-        <a href="#contacto" class="btn btn-primary">Empieza hoy</a>
+        <a href="#contacto" class="btn btn-primary btn-lg">Quiero agendar una sesión</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sesiones online -->
+  <section class="section section-alt" id="sesiones-online">
+    <div class="container">
+      <h2 class="section-title">Tu espacio de acompañamiento, estés donde estés</h2>
+      <p class="section-lead">
+        No necesitas desplazarte ni cambiar toda tu rutina para buscar apoyo. Puedes acceder a tu sesión desde
+        un lugar tranquilo y privado utilizando una computadora, tablet o teléfono con conexión a internet.
+        Las sesiones se realizan mediante videollamada y tienen una duración aproximada de una hora.
+      </p>
+      <div class="badge-row">
+        <span class="pill-badge">Privacidad</span>
+        <span class="pill-badge">Comodidad</span>
+        <span class="pill-badge">Acompañamiento profesional</span>
       </div>
     </div>
   </section>
@@ -255,12 +302,13 @@
     <div class="container contact-inner">
       <div class="contact-copy">
         <h2 class="section-title">Te acompañamos a dar el primer paso</h2>
-        <p>Completa el formulario y un miembro de nuestro equipo se pondrá en contacto contigo.</p>
+        <p>Completa el formulario y un miembro de nuestro equipo se pondrá en contacto contigo. También puedes escribirnos directo por WhatsApp si lo prefieres.</p>
         <ul class="checklist">
           <li>Sin compromiso</li>
           <li>Sin presión</li>
           <li>Respuesta rápida</li>
         </ul>
+        <a href="https://wa.me/573102890439?text=Hola%2C%20quiero%20agendar%20una%20sesi%C3%B3n" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">Hablar por WhatsApp</a>
       </div>
 
       <form class="contact-form" id="contactForm" name="contacto" method="POST" data-netlify="true" netlify-honeypot="empresa">
@@ -284,14 +332,99 @@
           Cuéntanos brevemente qué estás buscando
           <textarea name="mensaje" rows="3"></textarea>
         </label>
-        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+        <button type="submit" class="btn btn-primary btn-lg">Quiero agendar una sesión</button>
         <p class="form-note" id="formNote"></p>
       </form>
     </div>
   </section>
 
-  <!-- Comparación -->
-  <section class="section section-alt" id="planes">
+  <!-- Nuestra historia -->
+  <section class="section section-alt" id="nosotros">
+    <div class="container about-inner">
+      <div class="about-copy reveal">
+        <p class="eyebrow">Nuestra historia</p>
+        <h2 class="section-title">Nacimos de una idea sencilla: nadie debería sentirse solo cuando más necesita ser escuchado</h2>
+        <p>Conéctamente nació con el propósito de crear un espacio humano y cercano para quienes necesitan hablar, sentirse comprendidos y recibir orientación profesional.</p>
+        <p>Sabemos que pedir ayuda no siempre es fácil. Muchas veces esperamos hasta sentir que ya no podemos más, o pensamos que nuestros problemas "no son tan importantes" como para buscar acompañamiento. Pero no tienes que esperar a estar al límite.</p>
+        <p>Creemos que cuidar tu bienestar emocional también significa darte permiso para detenerte, hablar y pedir apoyo cuando lo necesites. Cada historia es diferente. Cada persona merece ser escuchada.</p>
+        <a href="#metodo" class="btn btn-outline">Conoce nuestro enfoque</a>
+      </div>
+      <div class="about-visual reveal">
+        <div class="about-frame">
+          <img src="assets/about-team.png" alt="Dos personas conversando con empatía en un espacio cálido y luminoso">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section class="section" id="equipo">
+    <div class="container" style="max-width:760px; text-align:center;">
+      <h2 class="section-title">Personas que acompañan a personas</h2>
+      <p class="section-lead" style="margin-left:auto; margin-right:auto;">
+        Detrás de Conéctamente hay profesionales comprometidos con brindar un acompañamiento responsable,
+        respetuoso y humano. Entendemos que no hay dos historias iguales — por eso creemos que escuchar
+        realmente es tan importante como conocer una técnica.
+      </p>
+      <p class="section-lead" style="margin-left:auto; margin-right:auto;">
+        Nuestro compromiso es ofrecerte un espacio donde puedas expresarte con libertad, sentirte respetado
+        y trabajar sobre aquello que hoy necesitas comprender o cambiar.
+      </p>
+      <div class="center-cta">
+        <a href="#contacto" class="btn btn-outline">Conocer a nuestro equipo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diferenciales -->
+  <section class="section section-alt" id="diferenciales">
+    <div class="container">
+      <h2 class="section-title">¿Por qué Conéctamente?</h2>
+
+      <div class="grid grid-3">
+        <div class="card reveal"><h3>Un espacio sin juicios</h3><p>Puedes hablar de lo que estás viviendo con respeto y confidencialidad.</p></div>
+        <div class="card reveal"><h3>Atención en español</h3><p>Comunicar lo que sentimos puede ser más fácil cuando podemos hacerlo en nuestro propio idioma.</p></div>
+        <div class="card reveal"><h3>Sesiones online</h3><p>Recibe acompañamiento sin importar dónde te encuentres.</p></div>
+        <div class="card reveal"><h3>Atención cercana</h3><p>Profesionalismo y calidez humana pueden ir de la mano.</p></div>
+        <div class="card reveal"><h3>Tarifas accesibles</h3><p>Buscamos facilitar el acceso al acompañamiento emocional y psicológico.</p></div>
+        <div class="card reveal"><h3>Un proceso pensado para ti</h3><p>Tu historia, tus necesidades y tus objetivos son el punto de partida.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="section" id="testimonios">
+    <div class="container">
+      <h2 class="section-title">Historias de quienes ya dieron el paso</h2>
+
+      <div class="grid grid-3">
+        <blockquote class="testimonial reveal">
+          <p>"Llegué pensando que la ansiedad simplemente era parte de mí. Con las sesiones y las herramientas de la app aprendí a reconocerla a tiempo, antes de que me controlara."</p>
+          <div class="testimonial-who">
+            <img class="avatar-img" src="assets/avatar-ana.png" alt="Foto de Ana Belén">
+            <footer>Ana Belén, 34 — Madrid, España</footer>
+          </div>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <p>"Empezamos el plan en pareja sin muchas expectativas. Lo que más nos ayudó fue tener un espacio guiado para decir cosas que llevábamos meses callando."</p>
+          <div class="testimonial-who">
+            <img class="avatar-img" src="assets/avatar-couple.png" alt="Foto de Laura y Daniel">
+            <footer>Laura y Daniel, 30 y 33 — Miami, Estados Unidos</footer>
+          </div>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <p>"Llegué a este país hace dos años y sentía que nadie entendía por lo que estaba pasando. Aquí encontré a alguien que sí, y eso cambió todo."</p>
+          <div class="testimonial-who">
+            <img class="avatar-img" src="assets/avatar-patricia.png" alt="Foto de Patricia">
+            <footer>Patricia, 41 — Houston, Estados Unidos</footer>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planes -->
+  <section class="section" id="planes">
     <div class="container">
       <h2 class="section-title">Planes pensados para tu proceso</h2>
       <p class="section-lead">Elige el plan que se ajuste a tu momento. Sin permanencia mínima.</p>
@@ -345,102 +478,6 @@
           <a href="#contacto" class="btn btn-outline">Elegir plan</a>
         </div>
       </div>
-
-      <p class="section-lead" style="margin: 48px auto 0; text-align:center;">Por qué elegir Conéctamente frente a otras opciones</p>
-
-      <div class="table-wrap">
-        <table class="compare-table">
-          <thead>
-            <tr>
-              <th></th>
-              <th>Conéctamente</th>
-              <th>Terapia tradicional</th>
-              <th>Otras plataformas</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Método estructurado</td>
-              <td class="yes">Etapas definidas</td>
-              <td>Variable</td>
-              <td>No siempre</td>
-            </tr>
-            <tr>
-              <td>Acompañamiento entre sesiones</td>
-              <td class="yes">Herramientas + comunidad</td>
-              <td>No</td>
-              <td>Limitado</td>
-            </tr>
-            <tr>
-              <td>Enfoque cultural en español</td>
-              <td class="yes">Sí, siempre</td>
-              <td>General</td>
-              <td>No</td>
-            </tr>
-            <tr>
-              <td>Medición de progreso</td>
-              <td class="yes">Tests y seguimiento</td>
-              <td>Variable</td>
-              <td>Rara vez</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sobre nosotros -->
-  <section class="section" id="nosotros">
-    <div class="container about-inner">
-      <div class="about-copy reveal">
-        <p class="eyebrow">Nuestra historia</p>
-        <h2 class="section-title">Creamos Conéctamente para que nadie atraviese esto en soledad</h2>
-        <p>[Espacio para la historia real del equipo fundador: quiénes son, su formación profesional y por qué crearon este programa.]</p>
-        <p>Trabajamos con un método propio, pensado para acompañar el bienestar emocional paso a paso, con estructura y con calidez humana.</p>
-        <a href="#contacto" class="btn btn-outline">Conoce nuestro método</a>
-      </div>
-      <div class="about-visual" aria-hidden="true">
-        <div class="about-frame">
-          <img src="assets/about-team.png" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Beneficios -->
-  <section class="section section-alt" id="beneficios">
-    <div class="container">
-      <h2 class="section-title">Avanza con respaldo real</h2>
-
-      <div class="grid grid-3">
-        <div class="card reveal"><h3>Precio accesible</h3><p>Una inversión pensada para caber en tu presupuesto, sin costos ocultos.</p></div>
-        <div class="card reveal"><h3>A tu ritmo</h3><p>Pausa, ajusta o cancela tu plan cuando lo necesites.</p></div>
-        <div class="card reveal"><h3>Sin listas de espera</h3><p>Empieza tu proceso sin semanas de espera para tu primera sesión.</p></div>
-        <div class="card reveal"><h3>Garantía de match</h3><p>Si no sientes conexión con tu especialista, te ayudamos a encontrar otro sin costo extra.</p></div>
-        <div class="card reveal"><h3>Equipo certificado</h3><p>Especialistas seleccionados y capacitados en nuestro método.</p></div>
-        <div class="card reveal"><h3>Desde donde estés</h3><p>Conéctate desde tu casa, tu oficina o cualquier lugar con internet.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- La app -->
-  <section class="section" id="app">
-    <div class="container app-showcase">
-      <div class="app-showcase-visual reveal">
-        <img src="assets/app-mockup.png" alt="Ilustración de la app de Conéctamente con seguimiento de bienestar">
-      </div>
-      <div class="app-showcase-copy">
-        <p class="eyebrow">Tu bienestar en un solo lugar</p>
-        <h2 class="section-title">Todo tu proceso, siempre a la mano</h2>
-        <p>La app de Conéctamente te acompaña entre sesiones, con herramientas pensadas para que el progreso no se quede solo en la videollamada.</p>
-        <ul class="app-feature-list">
-          <li>Diario emocional con historial de tus reflexiones y avances.</li>
-          <li>Actividades prácticas para trabajar entre sesiones.</li>
-          <li>Masterclasses para profundizar en tu proceso.</li>
-          <li>Tests de progreso para medir tu avance.</li>
-        </ul>
-        <a href="#contacto" class="btn btn-primary">Conoce cómo empezar</a>
-      </div>
     </div>
   </section>
 
@@ -477,27 +514,39 @@
 
       <div class="accordion" id="accordion">
         <div class="accordion-item">
-          <button class="accordion-trigger">¿Cómo son las sesiones?</button>
+          <button class="accordion-trigger">¿Necesito tener un diagnóstico para solicitar una sesión?</button>
           <div class="accordion-panel">
-            <p>Las sesiones son encuentros 1 a 1 en línea con tu especialista, por videollamada dentro de la plataforma.</p>
+            <p>No. No necesitas contar con un diagnóstico para buscar acompañamiento. Puedes contactarnos y explicarnos qué estás viviendo para orientarte.</p>
           </div>
         </div>
         <div class="accordion-item">
-          <button class="accordion-trigger">¿Por cuánto tiempo puedo usar el programa?</button>
+          <button class="accordion-trigger">¿Las sesiones son presenciales?</button>
           <div class="accordion-panel">
-            <p>Puedes usarlo el tiempo que necesites. No hay permanencia mínima: puedes pausar o cancelar cuando quieras.</p>
+            <p>Nuestro servicio está diseñado para realizarse online mediante videollamada.</p>
           </div>
         </div>
         <div class="accordion-item">
-          <button class="accordion-trigger">¿Para quién es Conéctamente?</button>
+          <button class="accordion-trigger">¿Cuánto dura una sesión?</button>
           <div class="accordion-panel">
-            <p>Para personas que quieren entender mejor lo que están viviendo y avanzar con acompañamiento profesional en español.</p>
+            <p>Las sesiones tienen una duración aproximada de una hora.</p>
           </div>
         </div>
         <div class="accordion-item">
-          <button class="accordion-trigger">¿En qué casos no es para mí?</button>
+          <button class="accordion-trigger">¿En qué idioma son las sesiones?</button>
           <div class="accordion-panel">
-            <p>El programa no sustituye servicios de emergencia o atención psiquiátrica urgente. Si vives una crisis inmediata, busca ayuda de servicios de emergencia locales.</p>
+            <p>Las sesiones se realizan en español.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">¿Qué pasa si no sé exactamente qué me ocurre?</button>
+          <div class="accordion-panel">
+            <p>No tienes que llegar con todo claro. Parte del proceso consiste precisamente en comprender qué estás sintiendo y qué puede estar ocurriendo.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">¿Cómo puedo comenzar?</button>
+          <div class="accordion-panel">
+            <p>Puedes escribirnos directamente por WhatsApp o llenar el formulario de contacto. Cuéntanos brevemente qué necesitas y te indicaremos los siguientes pasos.</p>
           </div>
         </div>
       </div>
@@ -507,11 +556,13 @@
   <!-- CTA final -->
   <section class="final-cta">
     <div class="container">
-      <h2>Sentirte mejor no es suerte. Es un proceso.</h2>
-      <div class="hero-cta">
-        <a href="#planes" class="btn btn-primary btn-lg">Ver planes</a>
-        <a href="#contacto" class="btn btn-outline-light btn-lg">Quiero más información</a>
+      <h2>Tal vez hoy no puedas solucionar todo.<br>Pero sí puedes empezar por hablar de ello.</h2>
+      <p class="final-cta-lead">No tienes que esperar a sentirte al límite para pedir acompañamiento. Da un primer paso hacia tu bienestar.</p>
+      <div class="hero-cta" style="justify-content:center;">
+        <a href="#contacto" class="btn btn-primary btn-lg">Agendar mi sesión</a>
+        <a href="https://wa.me/573102890439?text=Hola%2C%20quiero%20agendar%20una%20sesi%C3%B3n" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg">Hablar por WhatsApp</a>
       </div>
+      <p class="final-cta-note">Tu historia importa. Lo que sientes importa. Tú importas.</p>
     </div>
   </section>
 
@@ -525,24 +576,24 @@
         <img src="assets/logo-icon.png" alt="" class="logo-icon-img">
         Conéctamente
       </a>
-      <p>Programa de bienestar emocional online, en español, con acompañamiento profesional en cada etapa.</p>
+      <p>Acompañamiento psicológico y emocional online en español.</p>
     </div>
     <div>
-      <h4>Áreas de apoyo</h4>
+      <h4>Navegación</h4>
       <ul>
-        <li><a href="#areas">Ansiedad</a></li>
-        <li><a href="#areas">Estado de ánimo</a></li>
-        <li><a href="#areas">Migración</a></li>
-        <li><a href="#areas">Relaciones de pareja</a></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#identificado">Quiénes somos</a></li>
+        <li><a href="#metodo">Nuestro enfoque</a></li>
+        <li><a href="#servicios">Servicios</a></li>
       </ul>
     </div>
     <div>
-      <h4>Sobre nosotros</h4>
+      <h4>Ayuda</h4>
       <ul>
-        <li><a href="#nosotros">Nuestra historia</a></li>
-        <li><a href="#como-funciona">Nuestro método</a></li>
         <li><a href="#faq">Preguntas frecuentes</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#tests">Tests gratuitos</a></li>
       </ul>
     </div>
     <div>
@@ -557,7 +608,7 @@
   <div class="container footer-bottom">
     <p>© Conéctamente — Todos los derechos reservados — 2026</p>
     <div class="footer-links">
-      <a href="#">Política de Privacidad</a>
+      <a href="#">Aviso de Privacidad</a>
       <a href="#">Términos y Condiciones</a>
     </div>
   </div>
