@@ -562,7 +562,23 @@ img { max-width: 100%; display: block; }
   padding: 0 20px;
 }
 .accordion-panel p { padding-bottom: 18px; margin: 0; font-size: .92rem; }
-.accordion-item.open .accordion-panel { max-height: 240px; }
+.accordion-item.open .accordion-panel { max-height: 480px; }
+
+/* Legal */
+.legal-note { font-size: .78rem; line-height: 1.45; color: var(--color-body); margin: 4px 0 0; }
+.legal-note a { color: var(--color-primary); text-decoration: underline; }
+.footer-disclaimer {
+  padding: 22px 24px 4px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.footer-disclaimer p { font-size: .8rem; line-height: 1.55; color: #cfd8d5; margin: 0 0 18px; max-width: none; }
+.legal-page { max-width: 820px; margin: 0 auto; padding: 56px 24px 80px; }
+.legal-page h1 { font-size: clamp(1.8rem, 4vw, 2.4rem); margin-bottom: 8px; }
+.legal-page h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+.legal-page p, .legal-page li { font-size: .98rem; line-height: 1.65; }
+.legal-page ul { list-style: disc; padding-left: 22px; margin: 0 0 1em; }
+.legal-page .legal-updated { font-size: .85rem; color: var(--color-body); }
+.legal-back { display: inline-block; margin-bottom: 24px; color: var(--color-primary); font-weight: 600; }
 
 /* Final CTA */
 .final-cta {
